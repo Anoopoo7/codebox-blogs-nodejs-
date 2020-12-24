@@ -1,0 +1,118 @@
+*{
+  margin: 0px;
+  padding-left: 0px;
+}
+body{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(-90deg,orange,green);
+}
+.container{
+  width: 100%;
+  height: auto;
+}
+.header{
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header h3{
+  color: rgb(200,200,200);
+  font-weight: normal;
+}
+.header h1{
+  color: white;
+  font-family: Algerian;
+  font-size: 40px;
+}
+.header button{
+  background-color: rgba(10,10,10,0.3);
+  color:rgb(200,200,200);
+  padding:5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+a{
+  text-decoration: none;
+  color:rgb(200,200,200);
+}
+.header button:hover{
+  background-color: rgba(10,10,10,0.5);
+  color:rgb(220,225,220);
+}
+.post{
+  width:95%;
+  margin:20px 25px;
+  height: 30vh;
+  background-color: rgba(10,10,10,0.2);
+  border-radius:15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#heading{
+  margin-right: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+#textt{
+  margin-right: 20px;
+  padding: 15px 60px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+#submit{
+  margin-right: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: rgba(10,10,10,0.5);
+  color:rgb(220,225,220);
+}
+.mains{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 180px;
+}
+.mains section{
+  background-color: white;
+  margin: 10px 10px;
+  width: 300px;
+  min-height: 150px;
+  border-radius: 12px;
+  box-shadow: 2px 5px 10px black;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+section h3{
+  color:black;
+  margin-bottom: 10px;
+}
+section h5{
+    color:rgba(10,50,50,0.9);
+}
+section h6{
+  color: rgba(150,100,12,0.9);
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  font-size: 15px;
+}

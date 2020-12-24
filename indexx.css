@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #282828;
+  background: linear-gradient(-55deg,orange,purple);
+}
+.left {
+  width:400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  padding: 2px 10px;
+}
+h1{
+  margin-bottom: 30px;
+  color: white;
+  font-family: Algerian;
+  font-size: 50px;
+}
+h4{
+  color: rgba(150,150,150,0.8);
+}
+.right{
+  width: 400px;
+  height: 400px;
+  background-color: rgba(1,1,1,0.3);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  color: rgba(200,200,200,0.8);
+  margin-bottom: 45px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  margin-top: 10px;
+  padding: 2px 6px;
+  outline: none;
+  border: none;
+  background-color: rgba(1,1,1,0.1);
+  border-radius: 10px;
+}
+#button{
+  background-color: rgba(1,1,1,0.2);
+  color:rgba(200,200,200,0.8);
+  padding:2px 75px;
+  cursor: pointer;
+}
+#button:hover{
+  background: purple;
+  color:rgba(200,200,200,0.8);
+}
